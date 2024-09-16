@@ -7,3 +7,14 @@
   width: 100%;
 }
 /*header*/
+.page-title{
+    margin-top: 110px;
+}
+.page-header{
+    width: auto;
+    height: 190px;
+    background-color:rgb(33, 121, 221) ;
+    background-image: url('../img/pattern.png');
+    background-repeat: repeat-x;
+
+}
