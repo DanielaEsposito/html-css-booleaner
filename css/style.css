@@ -19,14 +19,17 @@
   background-repeat: repeat-x;
 }
 h1 {
-  margin: 20px 0px;
+  margin: 20px 0px 0px 0px;
   font-size: 50px;
 }
 h2 {
   color: rgb(148, 148, 148);
+  line-height: 20px;
+  margin-bottom: 30px;
 }
 cite {
   color: rgb(75, 142, 219);
+  font-style: normal;
 }
 .data {
   font-size: 15px;
