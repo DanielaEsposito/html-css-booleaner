@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
   margin: 0px;
+  font-family: serif;
 }
 *img {
   width: 100%;
@@ -19,6 +20,7 @@
 }
 h1 {
   margin: 20px 0px;
+  font-size: 50px;
 }
 h2 {
   color: rgb(148, 148, 148);
