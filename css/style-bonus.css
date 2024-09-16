@@ -69,9 +69,12 @@ td,
 th {
   padding: 5px 10px;
   border: 0px;
+  
 }
 th {
   background-color: rgb(53, 112, 180);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
 }
 .blu {
   background-color: rgb(150, 225, 255);
