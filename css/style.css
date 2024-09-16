@@ -42,6 +42,10 @@ main {
 .tim {
   margin-left: 20px;
 }
+figcaption{
+font-weight: bold;
+font-size: 13px;
+}
 .p1 {
   margin-top: 20px;
 }
