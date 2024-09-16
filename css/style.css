@@ -60,9 +60,10 @@ font-size: 13px;
  margin: 30px 0px;
 }
 /*third section*/
-.table {
+table {
   margin-top: 20px;
   border: 0px;
+  border-spacing: 0px;
 }
 td,
 th {
