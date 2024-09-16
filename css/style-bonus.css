@@ -1,0 +1,82 @@
+/*generals*/
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: serif;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal
+}
+*img {
+  width: 100%;
+}
+/*header*/
+.page-title {
+  margin-top: 100px;
+}
+.page-header {
+  width: auto;
+  height: 190px;
+  background-color: rgb(33, 121, 221);
+  background-image: url("../img/pattern.png");
+  background-repeat: repeat-x;
+}
+h1 {
+  margin: 20px 0px 0px 0px;
+  font-size: 50px;
+}
+h2 {
+  color: rgb(148, 148, 148);
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+cite {
+  color: rgb(75, 142, 219);
+  font-style: normal;
+}
+.data {
+  font-size: 15px;
+}
+/*main*/
+/*p1 section*/
+main {
+  margin: 10px 180px;
+  text-align: center;
+}
+.tim {
+  margin-left: 20px;
+}
+figcaption{
+font-weight: bold;
+font-size: 13px;
+}
+.p1 {
+  margin:40px 0px;
+}
+.colored {
+  background-color: yellow;
+}
+/*list section*/
+.list {
+ margin: 40px 0px;
+}
+/*third section*/
+.table {
+  margin-top: 20px;
+  border: 0px;
+}
+td,
+th {
+  padding: 5px 10px;
+  border: 0px;
+}
+th {
+  background-color: rgb(53, 112, 180);
+}
+.blu {
+  background-color: rgb(150, 225, 255);
+}
+/*p2 section*/
+.p2 {
+  margin: 40px 0px;
+}
