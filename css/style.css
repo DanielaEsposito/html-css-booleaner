@@ -1,0 +1,9 @@
+/*generals*/
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+*img {
+  width: 100%;
+}
+/*header*/
