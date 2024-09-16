@@ -22,6 +22,7 @@ h2{color: rgb(148, 148, 148);}
 cite{color: rgb(75, 142, 219);}
 .data{font-size: 15px;}
 /*main*/
+/*p1 section*/
 main{margin: 10px;}
 .tim{
     margin-left: 20px;
@@ -29,3 +30,6 @@ main{margin: 10px;}
 .p1{
     margin-top: 20px;
 }
+.colored{background-color: yellow;}
+/*list section*/
+.list{margin-top: 20px;}
