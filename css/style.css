@@ -5,78 +5,82 @@
   font-family: serif;
   font-family: "Merriweather", serif;
   font-weight: 400;
-  font-style: normal
+  font-style: normal;
 }
 *img {
   width: 100%;
+  max-width: 100%;
 }
 /*header*/
 .page-title {
-  margin-top: 100px;
+  padding-top: 40px;
 }
 .page-header {
   width: auto;
-  height: 190px;
   background-color: rgb(33, 121, 221);
   background-image: url("../img/pattern.png");
   background-repeat: repeat-x;
 }
 h1 {
-  margin: 20px 0px 0px 0px;
+  font-weight: bold;
   font-size: 50px;
+  padding-top: 20px;
 }
 h2 {
   color: rgb(148, 148, 148);
   line-height: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
-cite {
+a {
   color: rgb(75, 142, 219);
-  font-style: normal;
+  text-decoration: none;
 }
-.data {
-  font-size: 15px;
-}
-/*main*/
+
+/*article*/
 /*p1 section*/
-main {
-  margin: 10px;
+article, aside {
+  margin-left: 30px;
+  padding-bottom: 30px;
 }
-.tim {
-  margin-left: 20px;
+
+figcaption {
+  font-weight: bold;
+  font-size: 13px;
 }
-figcaption{
-font-weight: bold;
-font-size: 13px;
+
+ul{
+  padding: 0;
+  list-style-position: inside;
+  margin-bottom: 20px;
 }
-.p1 {
-  margin-top: 20px;
-}
-.colored {
-  background-color: yellow;
-}
-/*list section*/
-.list {
- margin: 30px 0px;
-}
-/*third section*/
+/*table*/
+
 table {
   margin-top: 20px;
-  border: 0px;
   border-spacing: 0px;
+  text-align: left;
+  
 }
-td,
-th {
-  padding: 5px 10px;
-  border: 0px;
-}
+.w50{width: 50%;}
+
 th {
   background-color: rgb(53, 112, 180);
 }
+
 .blu {
   background-color: rgb(150, 225, 255);
 }
-/*p2 section*/
-.p2 {
-  margin: 30px 0px;
+/*aside*/
+div{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+
+}
+.monitor{
+  background-image: url('../img/monitor.jpg');
+  background-size: cover;
+}
+.graph{
+  background-image: url('../img/graph.jpg');
 }
