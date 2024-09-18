@@ -34,13 +34,18 @@ h2 {
 a {
   color: rgb(75, 142, 219);
   text-decoration: none;
+  font-weight: bold;
 }
 
 /*article*/
 /*p1 section*/
-article, aside {
+article,
+aside {
   margin-left: 30px;
   padding-bottom: 30px;
+}
+p {
+  margin: 20px 0px;
 }
 
 figcaption {
@@ -48,7 +53,7 @@ figcaption {
   font-size: 13px;
 }
 
-ul{
+ul {
   padding: 0;
   list-style-position: inside;
   margin-bottom: 20px;
@@ -56,12 +61,13 @@ ul{
 /*table*/
 
 table {
-  margin-top: 20px;
+  margin: 20px 0px;
   border-spacing: 0px;
   text-align: left;
-  
 }
-.w50{width: 50%;}
+.w50 {
+  width: 50%;
+}
 
 th {
   background-color: rgb(53, 112, 180);
@@ -71,16 +77,15 @@ th {
   background-color: rgb(150, 225, 255);
 }
 /*aside*/
-div{
+div {
   width: 200px;
   height: 200px;
   margin-bottom: 20px;
-
 }
-.monitor{
-  background-image: url('../img/monitor.jpg');
+.monitor {
+  background-image: url("../img/monitor.jpg");
   background-size: cover;
 }
-.graph{
-  background-image: url('../img/graph.jpg');
+.graph {
+  background-image: url("../img/graph.jpg");
 }
